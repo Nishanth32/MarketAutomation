@@ -1,0 +1,6 @@
+C:\Users\jebes\onedrive\documents\visual studio 2015\Projects\TxtMobiz\TxtMobiz\bin\Debug\TxtMobiz.dll
+C:\Users\jebes\onedrive\documents\visual studio 2015\Projects\TxtMobiz\TxtMobiz\bin\Debug\TxtMobiz.pdb
+C:\Users\jebes\onedrive\documents\visual studio 2015\Projects\TxtMobiz\TxtMobiz\bin\Debug\Microsoft.Crm.SolutionProjects.MSBuild.dll
+C:\Users\jebes\onedrive\documents\visual studio 2015\Projects\TxtMobiz\TxtMobiz\obj\Debug\TXTSubscriptionManagement.CSPROJResolveAssemblyReference.cache
+C:\Users\jebes\onedrive\documents\visual studio 2015\Projects\TxtMobiz\TxtMobiz\obj\Debug\TxtMobiz.dll
+C:\Users\jebes\onedrive\documents\visual studio 2015\Projects\TxtMobiz\TxtMobiz\obj\Debug\TxtMobiz.pdb

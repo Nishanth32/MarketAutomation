@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships>
+  <EntityRelationship Name="business_unit_txt_subscription" />
+  <EntityRelationship Name="lk_txt_subscription_createdby" />
+  <EntityRelationship Name="lk_txt_subscription_modifiedby" />
+  <EntityRelationship Name="owner_txt_subscription" />
+  <EntityRelationship Name="team_txt_subscription" />
+  <EntityRelationship Name="user_txt_subscription" />
+</EntityRelationships>

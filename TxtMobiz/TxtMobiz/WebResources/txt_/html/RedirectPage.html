@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+    <script>
+        var crmParent = parent.window.Xrm.Page.context;
+        var queryString = "ClientUrl=" + crmParent.getClientUrl() + "&UniqueName=" + crmParent.getOrgUniqueName() +
+            "&UserName=" + crmParent.getUserName() + "&CRMVersion" + crmParent.getVersion();
+
+        window.location.href = "http://txtmobizapp.azurewebsites.net/Home/MobizHome?"+queryString;
+    </script>
+
+</body>
+</html>

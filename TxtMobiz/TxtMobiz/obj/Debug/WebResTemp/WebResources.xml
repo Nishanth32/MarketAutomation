@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResources>
+  <WebResource>
+    <WebResourceId>{c96bf6cc-ddaf-e711-a826-000d3a13ae0a}</WebResourceId>
+    <Name>txt_/css/jquery.flowchart.css</Name>
+    <DisplayName>css jquery.flowchart</DisplayName>
+    <Description>Cascading Style sheet jquery.flowchart</Description>
+    <LanguageCode>1033</LanguageCode>
+    <WebResourceType>2</WebResourceType>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <FileName>/WebResources/txt_cssjqueryflowchartcssc96bf6cc-ddaf-e711-a826-000d3a13ae0a</FileName>
+  </WebResource>
+  <WebResource>
+    <WebResourceId>{f327b85a-deaf-e711-a826-000d3a13ae0a}</WebResourceId>
+    <Name>txt_/html/CampaignBuilder</Name>
+    <DisplayName>Campaign Builder Flow Chart</DisplayName>
+    <Description>Campaign Builder Flow Chart</Description>
+    <LanguageCode>1033</LanguageCode>
+    <WebResourceType>1</WebResourceType>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <FileName>/WebResources/txt_htmlCampaignBuilderf327b85a-deaf-e711-a826-000d3a13ae0a</FileName>
+  </WebResource>
+  <WebResource>
+    <WebResourceId>{1fe13319-2bae-e711-a827-000d3a13a9c6}</WebResourceId>
+    <Name>txt_/html/Configuration.html</Name>
+    <DisplayName>Configuration</DisplayName>
+    <Description>TXT Mobiz Solution Configuration Page</Description>
+    <LanguageCode>1033</LanguageCode>
+    <WebResourceType>1</WebResourceType>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <FileName>/WebResources/txt_htmlConfigurationhtml1fe13319-2bae-e711-a827-000d3a13a9c6</FileName>
+  </WebResource>
+  <WebResource>
+    <WebResourceId>{fd229177-2bae-e711-a827-000d3a13a9c6}</WebResourceId>
+    <Name>txt_/Images/TxtMobizLogx.png</Name>
+    <DisplayName>Txt Mobiz Logo</DisplayName>
+    <Description>Txt Mobiz Company Logo</Description>
+    <LanguageCode>1033</LanguageCode>
+    <WebResourceType>5</WebResourceType>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <FileName>/WebResources/txt_ImagesTxtMobizLogxpngfd229177-2bae-e711-a827-000d3a13a9c6</FileName>
+  </WebResource>
+  <WebResource>
+    <WebResourceId>{79efde2c-cbae-e711-a826-000d3a13ae0a}</WebResourceId>
+    <Name>txt_/images/TxtMobizMainArea.png</Name>
+    <DisplayName>TxtMobizMainArea</DisplayName>
+    <Description></Description>
+    <LanguageCode>1033</LanguageCode>
+    <WebResourceType>5</WebResourceType>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <FileName>/WebResources/txt_imagesTxtMobizMainAreapng79efde2c-cbae-e711-a826-000d3a13ae0a</FileName>
+  </WebResource>
+  <WebResource>
+    <WebResourceId>{3160ef65-ddaf-e711-a826-000d3a13ae0a}</WebResourceId>
+    <Name>txt_/scripts/jquery.flowchart.js</Name>
+    <DisplayName>jquery.flowchart</DisplayName>
+    <Description>jquery.flowchart</Description>
+    <LanguageCode>1033</LanguageCode>
+    <WebResourceType>3</WebResourceType>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <FileName>/WebResources/txt_scriptsjqueryflowchartjs3160ef65-ddaf-e711-a826-000d3a13ae0a</FileName>
+  </WebResource>
+</WebResources>

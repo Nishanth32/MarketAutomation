@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{1fe13319-2bae-e711-a827-000d3a13a9c6}</WebResourceId>
+  <Name>txt_/html/Configuration.html</Name>
+  <DisplayName>Configuration</DisplayName>
+  <Description>TXT Mobiz Solution Configuration Page</Description>
+  <LanguageCode>1033</LanguageCode>
+  <WebResourceType>1</WebResourceType>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/txt_htmlConfigurationhtml1fe13319-2bae-e711-a827-000d3a13a9c6</FileName>
+</WebResource>

@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.0.0000.2072" SolutionPackageVersion="9.0" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>TXTSubscriptionManagement</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="TXT Subscription Management" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.0</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>txtmobizsolution</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="TXTMobiz Solution" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="TXTMobiz Solution Company" languagecode="1033" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>txt</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>27706</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="txt_subscription" behavior="0" />
+      <RootComponent type="61" schemaName="txt_/css/jquery.flowchart.css" behavior="0" />
+      <RootComponent type="61" schemaName="txt_/html/CampaignBuilder" behavior="0" />
+      <RootComponent type="61" schemaName="txt_/html/Configuration.html" behavior="0" />
+      <RootComponent type="61" schemaName="txt_/Images/TxtMobizLogx.png" behavior="0" />
+      <RootComponent type="61" schemaName="txt_/images/TxtMobizMainArea.png" behavior="0" />
+      <RootComponent type="61" schemaName="txt_/scripts/jquery.flowchart.js" behavior="0" />
+      <RootComponent type="62" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="bulkoperation" displayName="Quick Campaign" solution="msdynce_Marketing (9.0.1.61)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="2" type="1" schemaName="list" displayName="Marketing List" solution="msdynce_Marketing (9.0.1.61)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="1" schemaName="product" displayName="Product" solution="msdynce_ProductManagement (9.0.1.61)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="4" type="1" schemaName="campaign" displayName="Campaign" solution="msdynce_Marketing (9.0.1.61)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="5" type="1" schemaName="leadtoopportunitysalesprocess" displayName="Lead To Opportunity Sales Process" solution="msdynce_Sales (9.0.1.61)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="6" type="1" schemaName="msdyn_postconfig" displayName="Post Configuration" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="7" type="1" schemaName="opportunitysalesprocess" displayName="Opportunity Sales Process" solution="msdynce_Sales (9.0.1.61)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="8" type="1" schemaName="opportunity" displayName="Opportunity" solution="msdynce_Sales (9.0.1.61)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="9" type="1" schemaName="salesorder" displayName="Order" solution="msdynce_Sales (9.0.1.61)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="10" type="1" schemaName="invoice" displayName="Invoice" solution="msdynce_Sales (9.0.1.61)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="11" type="1" schemaName="service" displayName="Service" solution="msdynce_Service (9.0.1.61)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="12" type="1" schemaName="contract" displayName="Contract" solution="msdynce_Service (9.0.1.61)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="13" type="1" schemaName="quote" displayName="Quote" solution="msdynce_Sales (9.0.1.61)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="14" type="1" schemaName="competitor" displayName="Competitor" solution="msdynce_Sales (9.0.1.61)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="15" type="1" schemaName="lead" displayName="Lead" solution="msdynce_LeadManagement (9.0.1.61)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="16" type="1" schemaName="phonetocaseprocess" displayName="Phone To Case Process" solution="msdynce_Service (9.0.1.61)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="17" type="1" schemaName="salesliterature" displayName="Sales Literature" solution="msdynce_Sales (9.0.1.61)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="18" type="1" schemaName="msdyn_postruleconfig" displayName="Post Rule Configuration" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="19" type="1" schemaName="incident" displayName="Case" solution="msdynce_Service (9.0.1.61)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="20" type="61" schemaName="msdyn_/PersonalWall.htm" displayName="msdyn_/PersonalWall.htm" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="21" type="61" schemaName="msdyn_appmanagementcontrol" displayName="msdyn_appmanagementcontrol" solution="AppModuleWebResources (2.5)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="22" type="61" schemaName="msdyn_/Images/Wall_16.png" displayName="msdyn_/Images/Wall_16.png" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

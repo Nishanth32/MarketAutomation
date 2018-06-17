@@ -1,0 +1,48 @@
+﻿@model TxtMobizApp.Models.AccountViewModel
+@{
+    Layout = "~/Views/Shared/_MasterLayout.cshtml";
+}
+<div class="container-fluid" style="margin-top:-35px">
+
+    <h2>Parameters from CRM</h2>
+    <div class="list-group">
+        @foreach (var query in Model.Parameters)
+        {
+            <a href="#" class="list-group-item">@query</a>
+        }
+    </div>
+
+
+    <div class="page-header">
+        <h1>Entities</h1>
+    </div>
+
+    <div class="table-responsive">
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Account Number</th>
+                    <th>Email Address</th>
+                    <th>WebSite Url</th>
+                    <th>Address Composite</th>
+                    <th>Revenue</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var data in Model.Accounts)
+            {
+                    <tr>
+                        <td>@data.Name</td>
+                        <td>@data.AccountNumber</td>
+                        <td>@data.EmailAddress</td>
+                        <td>@data.WebsiteUrl</td>
+                        <td>@data.Address_Composite</td>
+                        <td>@data.Revenue</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

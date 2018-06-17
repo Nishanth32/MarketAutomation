@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedquery>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>0</CanBeDeleted>
+  <isquickfindquery>1</isquickfindquery>
+  <isprivate>0</isprivate>
+  <isdefault>1</isdefault>
+  <savedqueryid>{33ef1d17-7d50-48e4-9f77-636b3cb2ba74}</savedqueryid>
+  <layoutxml>
+    <grid name="resultset" jump="txt_name" select="1" icon="1" preview="1">
+      <row name="result" id="txt_subscriptionid">
+        <cell name="txt_name" width="300" />
+        <cell name="createdon" width="125" />
+      </row>
+    </grid>
+  </layoutxml>
+  <querytype>4</querytype>
+  <fetchxml>
+    <fetch version="1.0" mapping="logical">
+      <entity name="txt_subscription">
+        <attribute name="txt_subscriptionid" />
+        <attribute name="txt_name" />
+        <attribute name="createdon" />
+        <order attribute="txt_name" descending="false" />
+        <filter type="and">
+          <condition attribute="statecode" operator="eq" value="0" />
+        </filter>
+        <filter type="or" isquickfindfields="1">
+          <condition attribute="txt_name" operator="like" value="{0}" />
+        </filter>
+      </entity>
+    </fetch>
+  </fetchxml>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <LocalizedNames>
+    <LocalizedName description="Quick Find Active Subscriptions" languagecode="1033" />
+  </LocalizedNames>
+</savedquery>

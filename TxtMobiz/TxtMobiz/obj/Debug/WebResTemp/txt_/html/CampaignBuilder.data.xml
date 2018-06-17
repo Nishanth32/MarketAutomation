@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{f327b85a-deaf-e711-a826-000d3a13ae0a}</WebResourceId>
+  <Name>txt_/html/CampaignBuilder</Name>
+  <DisplayName>Campaign Builder Flow Chart</DisplayName>
+  <Description>Campaign Builder Flow Chart</Description>
+  <LanguageCode>1033</LanguageCode>
+  <WebResourceType>1</WebResourceType>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/txt_htmlCampaignBuilderf327b85a-deaf-e711-a826-000d3a13ae0a</FileName>
+</WebResource>

@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<systemform>
+  <formid>{0107fc28-c519-41a2-8ec6-5e38e59bf568}</formid>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <FormPresentation>1</FormPresentation>
+  <FormActivationState>1</FormActivationState>
+  <form>
+    <tabs>
+      <tab verticallayout="true" id="{88d60277-0597-4cbe-80ce-645c34524001}" IsUserDefined="1">
+        <labels>
+          <label description="General" languagecode="1033" />
+        </labels>
+        <columns>
+          <column width="100%">
+            <sections>
+              <section showlabel="false" showbar="false" IsUserDefined="0" id="{58367bfa-d1ae-45a7-8b33-73214719b811}">
+                <labels>
+                  <label description="General" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{8a9ed9db-47a9-4fd4-af54-5f16def3a877}">
+                      <labels>
+                        <label description="Name" languagecode="1033" />
+                      </labels>
+                      <control id="txt_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="txt_name" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{3ef7a7dd-917c-4034-b46c-60f06982c174}">
+                      <labels>
+                        <label description="Owner" languagecode="1033" />
+                      </labels>
+                      <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{1133b3a2-2561-d914-d481-797b44cdde04}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Subscription Start Date" languagecode="1033" />
+                      </labels>
+                      <control id="txt_subscriptionstartdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="txt_subscriptionstartdate" disabled="false" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{cc0b5bcb-a652-d800-a8b0-db39e089ed52}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Subscription End Date" languagecode="1033" />
+                      </labels>
+                      <control id="txt_subscriptionenddate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="txt_subscriptionenddate" disabled="false" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{1053a9b6-2887-9160-5511-3220b55489e8}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Subscription Days Left" languagecode="1033" />
+                      </labels>
+                      <control id="txt_subscriptiondaysleft" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="txt_subscriptiondaysleft" disabled="false" />
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+    </tabs>
+    <header id="{a620418c-1f0d-46da-8176-de3ddfb40cb4}" columns="111">
+      <rows>
+        <row>
+          <cell id="{a8e70d18-b76b-4b19-8e23-1cbdde3598a9}">
+            <labels>
+              <label description="" languagecode="1033" />
+            </labels>
+          </cell>
+          <cell id="{88841005-9bee-878e-b22c-90bc0c71d272}" showlabel="true" locklevel="1">
+            <labels>
+              <label description="Subscription Key" languagecode="1033" />
+            </labels>
+            <control id="header_txt_subscriptionkey" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="txt_subscriptionkey" disabled="true" uniqueid="{a9a0011d-c845-3548-4cc4-a9629b8b5d5e}" />
+          </cell>
+          <cell id="{1aab0543-5cad-4ce2-5329-59ac9316b1e8}" showlabel="true" locklevel="0">
+            <labels>
+              <label description="Status" languagecode="1033" />
+            </labels>
+            <control id="header_statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" />
+          </cell>
+        </row>
+      </rows>
+    </header>
+    <Navigation>
+      <NavBar></NavBar>
+      <NavBarAreas>
+        <NavBarArea Id="Info">
+          <Titles>
+            <Title LCID="1033" Text="Common" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Sales">
+          <Titles>
+            <Title LCID="1033" Text="Sales" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Service">
+          <Titles>
+            <Title LCID="1033" Text="Service" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Marketing">
+          <Titles>
+            <Title LCID="1033" Text="Marketing" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="ProcessCenter">
+          <Titles>
+            <Title LCID="1033" Text="Process Sessions" />
+          </Titles>
+        </NavBarArea>
+      </NavBarAreas>
+    </Navigation>
+    <controlDescriptions />
+  </form>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <LocalizedNames>
+    <LocalizedName description="Information" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="A form for this entity." languagecode="1033" />
+  </Descriptions>
+</systemform>

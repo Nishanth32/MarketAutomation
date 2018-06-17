@@ -1,0 +1,587 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="Source LCID" xml:space="preserve">
+    <value>2070</value>
+  </metadata>
+  <metadata name="Source file" xml:space="preserve">
+    <value>HoldingSolution.zip</value>
+  </metadata>
+  <metadata name="Source package type" xml:space="preserve">
+    <value>Unmanaged</value>
+  </metadata>
+  <metadata name="SolutionPackager Version" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uVmVyc2lvbgQAAAAGX01ham9yBl9NaW5vcgZfQnVp
+        bGQJX1JldmlzaW9uAAAAAAgICAgIAAAAAAAAAAAAAAAAAAAACw==
+</value>
+  </metadata>
+  <data name="10:Description,business_unit_txt_subscription" xml:space="preserve">
+    <value />
+    <comment>txt_subscription Description for EntityRelationship 'business_unit_txt_subscription'</comment>
+  </data>
+  <data name="10:Description,lk_txt_subscription_createdby" xml:space="preserve">
+    <value />
+    <comment>txt_subscription Description for EntityRelationship 'lk_txt_subscription_createdby'</comment>
+  </data>
+  <data name="10:Description,lk_txt_subscription_modifiedby" xml:space="preserve">
+    <value />
+    <comment>txt_subscription Description for EntityRelationship 'lk_txt_subscription_modifiedby'</comment>
+  </data>
+  <data name="10:Description,owner_txt_subscription" xml:space="preserve">
+    <value />
+    <comment>txt_subscription Description for EntityRelationship 'owner_txt_subscription'</comment>
+  </data>
+  <data name="10:Description,team_txt_subscription" xml:space="preserve">
+    <value />
+    <comment>txt_subscription Description for EntityRelationship 'team_txt_subscription'</comment>
+  </data>
+  <data name="10:Description,user_txt_subscription" xml:space="preserve">
+    <value />
+    <comment>txt_subscription Description for EntityRelationship 'user_txt_subscription'</comment>
+  </data>
+  <data name="15062:Description,txtmobizsolutiontxt27706" xml:space="preserve">
+    <value />
+    <comment> 'txtmobizsolution' : Description for Solution Publisher</comment>
+  </data>
+  <data name="15062:LocalizedName,txtmobizsolutiontxt27706" xml:space="preserve">
+    <value />
+    <comment> 'txtmobizsolution' : LocalizedName for Solution Publisher</comment>
+  </data>
+  <data name="15062:LocalizedName,TXTSubscriptionManagement" xml:space="preserve">
+    <value />
+    <comment> 'TXTSubscriptionManagement' : LocalizedName for Solution</comment>
+  </data>
+  <data name="1:Description,Subscription{0107fc28-c519-41a2-8ec6-5e38e59bf568}" xml:space="preserve">
+    <value />
+    <comment>'Subscription' : Description for systemform in Entity FormXml ID: '{0107fc28-c519-41a2-8ec6-5e38e59bf568}'</comment>
+  </data>
+  <data name="1:Description,Subscription{4b6fb930-d5ae-e711-a826-000d3a13ae0a}" xml:space="preserve">
+    <value />
+    <comment>'Subscription' : Description for SavedQuery on Entity QueryId: '{4b6fb930-d5ae-e711-a826-000d3a13ae0a}'</comment>
+  </data>
+  <data name="1:Description,Subscription{519d5255-0cd2-48ac-ad3c-2dda956dd8b2}" xml:space="preserve">
+    <value />
+    <comment>'Subscription' : Description for systemform in Entity FormXml ID: '{519d5255-0cd2-48ac-ad3c-2dda956dd8b2}'</comment>
+  </data>
+  <data name="1:Description,txt_subscriptionCreatedBy" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : Description for Attribute 'CreatedBy' on Entity</comment>
+  </data>
+  <data name="1:Description,txt_subscriptionCreatedOn" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : Description for Attribute 'CreatedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,txt_subscriptionCreatedOnBehalfBy" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : Description for Attribute 'CreatedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:Description,txt_subscriptionentitytxt_subscription" xml:space="preserve">
+    <value />
+    <comment> 'txt_subscription' : Description for Entity</comment>
+  </data>
+  <data name="1:Description,txt_subscriptionImportSequenceNumber" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : Description for Attribute 'ImportSequenceNumber' on Entity</comment>
+  </data>
+  <data name="1:Description,txt_subscriptionModifiedBy" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : Description for Attribute 'ModifiedBy' on Entity</comment>
+  </data>
+  <data name="1:Description,txt_subscriptionModifiedOn" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : Description for Attribute 'ModifiedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,txt_subscriptionModifiedOnBehalfBy" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : Description for Attribute 'ModifiedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:Description,txt_subscriptionOverriddenCreatedOn" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : Description for Attribute 'OverriddenCreatedOn' on Entity</comment>
+  </data>
+  <data name="1:Description,txt_subscriptionOwnerId" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : Description for Attribute 'OwnerId' on Entity</comment>
+  </data>
+  <data name="1:Description,txt_subscriptionOwningBusinessUnit" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : Description for Attribute 'OwningBusinessUnit' on Entity</comment>
+  </data>
+  <data name="1:Description,txt_subscriptionOwningTeam" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : Description for Attribute 'OwningTeam' on Entity</comment>
+  </data>
+  <data name="1:Description,txt_subscriptionOwningUser" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : Description for Attribute 'OwningUser' on Entity</comment>
+  </data>
+  <data name="1:Description,txt_subscriptionstatecode" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : Description for Attribute 'statecode' on Entity</comment>
+  </data>
+  <data name="1:Description,txt_subscriptionstatuscode" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : Description for Attribute 'statuscode' on Entity</comment>
+  </data>
+  <data name="1:Description,txt_subscriptionTimeZoneRuleVersionNumber" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : Description for Attribute 'TimeZoneRuleVersionNumber' on Entity</comment>
+  </data>
+  <data name="1:Description,txt_subscriptiontxt_name" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : Description for Attribute 'txt_name' on Entity</comment>
+  </data>
+  <data name="1:Description,txt_subscriptiontxt_SubscriptionDaysLeft" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : Description for Attribute 'txt_SubscriptionDaysLeft' on Entity</comment>
+  </data>
+  <data name="1:Description,txt_subscriptiontxt_subscriptionenddate" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : Description for Attribute 'txt_subscriptionenddate' on Entity</comment>
+  </data>
+  <data name="1:Description,txt_subscriptiontxt_subscriptionId" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : Description for Attribute 'txt_subscriptionId' on Entity</comment>
+  </data>
+  <data name="1:Description,txt_subscriptiontxt_subscriptionkey" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : Description for Attribute 'txt_subscriptionkey' on Entity</comment>
+  </data>
+  <data name="1:Description,txt_subscriptiontxt_subscriptionstartdate" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : Description for Attribute 'txt_subscriptionstartdate' on Entity</comment>
+  </data>
+  <data name="1:Description,txt_subscriptiontxt_subscription_statecode" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : Description for OptionSet 'txt_subscription_statecode' on Entity</comment>
+  </data>
+  <data name="1:Description,txt_subscriptiontxt_subscription_statuscode" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : Description for OptionSet 'txt_subscription_statuscode' on Entity</comment>
+  </data>
+  <data name="1:Description,txt_subscriptionUTCConversionTimeZoneCode" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : Description for Attribute 'UTCConversionTimeZoneCode' on Entity</comment>
+  </data>
+  <data name="1:displayname,txt_subscriptionCreatedBy" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : displayname for Attribute 'CreatedBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,txt_subscriptionCreatedOn" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : displayname for Attribute 'CreatedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,txt_subscriptionCreatedOnBehalfBy" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : displayname for Attribute 'CreatedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,txt_subscriptionImportSequenceNumber" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : displayname for Attribute 'ImportSequenceNumber' on Entity</comment>
+  </data>
+  <data name="1:displayname,txt_subscriptionModifiedBy" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : displayname for Attribute 'ModifiedBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,txt_subscriptionModifiedOn" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : displayname for Attribute 'ModifiedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,txt_subscriptionModifiedOnBehalfBy" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : displayname for Attribute 'ModifiedOnBehalfBy' on Entity</comment>
+  </data>
+  <data name="1:displayname,txt_subscriptionOverriddenCreatedOn" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : displayname for Attribute 'OverriddenCreatedOn' on Entity</comment>
+  </data>
+  <data name="1:displayname,txt_subscriptionOwnerId" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : displayname for Attribute 'OwnerId' on Entity</comment>
+  </data>
+  <data name="1:displayname,txt_subscriptionOwningBusinessUnit" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : displayname for Attribute 'OwningBusinessUnit' on Entity</comment>
+  </data>
+  <data name="1:displayname,txt_subscriptionOwningTeam" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : displayname for Attribute 'OwningTeam' on Entity</comment>
+  </data>
+  <data name="1:displayname,txt_subscriptionOwningUser" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : displayname for Attribute 'OwningUser' on Entity</comment>
+  </data>
+  <data name="1:displayname,txt_subscriptionstatecode" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : displayname for Attribute 'statecode' on Entity</comment>
+  </data>
+  <data name="1:displayname,txt_subscriptionstatuscode" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : displayname for Attribute 'statuscode' on Entity</comment>
+  </data>
+  <data name="1:displayname,txt_subscriptionTimeZoneRuleVersionNumber" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : displayname for Attribute 'TimeZoneRuleVersionNumber' on Entity</comment>
+  </data>
+  <data name="1:displayname,txt_subscriptiontxt_name" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : displayname for Attribute 'txt_name' on Entity</comment>
+  </data>
+  <data name="1:displayname,txt_subscriptiontxt_SubscriptionDaysLeft" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : displayname for Attribute 'txt_SubscriptionDaysLeft' on Entity</comment>
+  </data>
+  <data name="1:displayname,txt_subscriptiontxt_subscriptionenddate" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : displayname for Attribute 'txt_subscriptionenddate' on Entity</comment>
+  </data>
+  <data name="1:displayname,txt_subscriptiontxt_subscriptionId" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : displayname for Attribute 'txt_subscriptionId' on Entity</comment>
+  </data>
+  <data name="1:displayname,txt_subscriptiontxt_subscriptionkey" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : displayname for Attribute 'txt_subscriptionkey' on Entity</comment>
+  </data>
+  <data name="1:displayname,txt_subscriptiontxt_subscriptionstartdate" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : displayname for Attribute 'txt_subscriptionstartdate' on Entity</comment>
+  </data>
+  <data name="1:displayname,txt_subscriptiontxt_subscription_statecode" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : displayname for OptionSet 'txt_subscription_statecode' on Entity</comment>
+  </data>
+  <data name="1:displayname,txt_subscriptiontxt_subscription_statuscode" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : displayname for OptionSet 'txt_subscription_statuscode' on Entity</comment>
+  </data>
+  <data name="1:displayname,txt_subscriptionUTCConversionTimeZoneCode" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : displayname for Attribute 'UTCConversionTimeZoneCode' on Entity</comment>
+  </data>
+  <data name="1:label,Subscription{1053a9b6-2887-9160-5511-3220b55489e8}" xml:space="preserve">
+    <value />
+    <comment>'Subscription' : label for cell in Entity FormXml ID: '{1053a9b6-2887-9160-5511-3220b55489e8}'</comment>
+  </data>
+  <data name="1:label,Subscription{1133b3a2-2561-d914-d481-797b44cdde04}" xml:space="preserve">
+    <value />
+    <comment>'Subscription' : label for cell in Entity FormXml ID: '{1133b3a2-2561-d914-d481-797b44cdde04}'</comment>
+  </data>
+  <data name="1:label,Subscription{1aab0543-5cad-4ce2-5329-59ac9316b1e8}" xml:space="preserve">
+    <value />
+    <comment>'Subscription' : label for cell in Entity FormXml ID: '{1aab0543-5cad-4ce2-5329-59ac9316b1e8}'</comment>
+  </data>
+  <data name="1:label,Subscription{1ab026cb-e17f-47f1-81ec-a29c92f5c832}" xml:space="preserve">
+    <value />
+    <comment>'Subscription' : label for cell in Entity FormXml ID: '{1ab026cb-e17f-47f1-81ec-a29c92f5c832}'</comment>
+  </data>
+  <data name="1:label,Subscription{1e921ea1-c663-4ee7-8c73-73bb1a0301b0}" xml:space="preserve">
+    <value />
+    <comment>'Subscription' : label for cell in Entity FormXml ID: '{1e921ea1-c663-4ee7-8c73-73bb1a0301b0}'</comment>
+  </data>
+  <data name="1:label,Subscription{3ef7a7dd-917c-4034-b46c-60f06982c174}" xml:space="preserve">
+    <value />
+    <comment>'Subscription' : label for cell in Entity FormXml ID: '{3ef7a7dd-917c-4034-b46c-60f06982c174}'</comment>
+  </data>
+  <data name="1:label,Subscription{47493acc-5b80-46a0-88ee-82145e188452}" xml:space="preserve">
+    <value />
+    <comment>'Subscription' : label for section in Entity FormXml ID: '{47493acc-5b80-46a0-88ee-82145e188452}'</comment>
+  </data>
+  <data name="1:label,Subscription{527d6353-ff27-4e6f-9abc-89e9e5b90470}" xml:space="preserve">
+    <value />
+    <comment>'Subscription' : label for cell in Entity FormXml ID: '{527d6353-ff27-4e6f-9abc-89e9e5b90470}'</comment>
+  </data>
+  <data name="1:label,Subscription{58367bfa-d1ae-45a7-8b33-73214719b811}" xml:space="preserve">
+    <value />
+    <comment>'Subscription' : label for section in Entity FormXml ID: '{58367bfa-d1ae-45a7-8b33-73214719b811}'</comment>
+  </data>
+  <data name="1:label,Subscription{642f2c50-3377-4ea0-93d8-c771bee09949}" xml:space="preserve">
+    <value />
+    <comment>'Subscription' : label for tab in Entity FormXml ID: '{642f2c50-3377-4ea0-93d8-c771bee09949}'</comment>
+  </data>
+  <data name="1:label,Subscription{6ee2ae3c-8b66-4364-a47d-96639ac2d2fd}" xml:space="preserve">
+    <value />
+    <comment>'Subscription' : label for section in Entity FormXml ID: '{6ee2ae3c-8b66-4364-a47d-96639ac2d2fd}'</comment>
+  </data>
+  <data name="1:label,Subscription{6f9c18a9-4ef4-4faf-b509-6f15e05d85c3}" xml:space="preserve">
+    <value />
+    <comment>'Subscription' : label for cell in Entity FormXml ID: '{6f9c18a9-4ef4-4faf-b509-6f15e05d85c3}'</comment>
+  </data>
+  <data name="1:label,Subscription{7b138c80-2341-42e2-b3e3-0a4c2698b41d}" xml:space="preserve">
+    <value />
+    <comment>'Subscription' : label for tab in Entity FormXml ID: '{7b138c80-2341-42e2-b3e3-0a4c2698b41d}'</comment>
+  </data>
+  <data name="1:label,Subscription{88841005-9bee-878e-b22c-90bc0c71d272}" xml:space="preserve">
+    <value />
+    <comment>'Subscription' : label for cell in Entity FormXml ID: '{88841005-9bee-878e-b22c-90bc0c71d272}'</comment>
+  </data>
+  <data name="1:label,Subscription{88d60277-0597-4cbe-80ce-645c34524001}" xml:space="preserve">
+    <value />
+    <comment>'Subscription' : label for tab in Entity FormXml ID: '{88d60277-0597-4cbe-80ce-645c34524001}'</comment>
+  </data>
+  <data name="1:label,Subscription{8a9ed9db-47a9-4fd4-af54-5f16def3a877}" xml:space="preserve">
+    <value />
+    <comment>'Subscription' : label for cell in Entity FormXml ID: '{8a9ed9db-47a9-4fd4-af54-5f16def3a877}'</comment>
+  </data>
+  <data name="1:label,Subscription{941ff18a-7523-48ed-a9b1-9e19567c1ef1}" xml:space="preserve">
+    <value />
+    <comment>'Subscription' : label for cell in Entity FormXml ID: '{941ff18a-7523-48ed-a9b1-9e19567c1ef1}'</comment>
+  </data>
+  <data name="1:label,Subscription{a01592c0-dbbe-44db-8334-3503e4a06374}" xml:space="preserve">
+    <value />
+    <comment>'Subscription' : label for cell in Entity FormXml ID: '{a01592c0-dbbe-44db-8334-3503e4a06374}'</comment>
+  </data>
+  <data name="1:label,Subscription{a8e70d18-b76b-4b19-8e23-1cbdde3598a9}" xml:space="preserve">
+    <value />
+    <comment>'Subscription' : label for cell in Entity FormXml ID: '{a8e70d18-b76b-4b19-8e23-1cbdde3598a9}'</comment>
+  </data>
+  <data name="1:label,Subscription{b1e9cc57-cd5e-4317-a069-db0c9729e87d}" xml:space="preserve">
+    <value />
+    <comment>'Subscription' : label for cell in Entity FormXml ID: '{b1e9cc57-cd5e-4317-a069-db0c9729e87d}'</comment>
+  </data>
+  <data name="1:label,Subscription{bd75dc56-b619-4870-9c6f-01c6bee1771e}" xml:space="preserve">
+    <value />
+    <comment>'Subscription' : label for section in Entity FormXml ID: '{bd75dc56-b619-4870-9c6f-01c6bee1771e}'</comment>
+  </data>
+  <data name="1:label,Subscription{bf29d567-31fc-407d-acdf-1bea680cff71}" xml:space="preserve">
+    <value />
+    <comment>'Subscription' : label for cell in Entity FormXml ID: '{bf29d567-31fc-407d-acdf-1bea680cff71}'</comment>
+  </data>
+  <data name="1:label,Subscription{c033dd15-085f-497a-8895-d028174366bc}" xml:space="preserve">
+    <value />
+    <comment>'Subscription' : label for section in Entity FormXml ID: '{c033dd15-085f-497a-8895-d028174366bc}'</comment>
+  </data>
+  <data name="1:label,Subscription{cc0b5bcb-a652-d800-a8b0-db39e089ed52}" xml:space="preserve">
+    <value />
+    <comment>'Subscription' : label for cell in Entity FormXml ID: '{cc0b5bcb-a652-d800-a8b0-db39e089ed52}'</comment>
+  </data>
+  <data name="1:label,Subscription{e3ccb7fb-c879-411f-9873-e41b6069e7a9}" xml:space="preserve">
+    <value />
+    <comment>'Subscription' : label for cell in Entity FormXml ID: '{e3ccb7fb-c879-411f-9873-e41b6069e7a9}'</comment>
+  </data>
+  <data name="1:label,Subscription{f2ce10bd-791b-46e9-9bca-8fc56774dfba}" xml:space="preserve">
+    <value />
+    <comment>'Subscription' : label for cell in Entity FormXml ID: '{f2ce10bd-791b-46e9-9bca-8fc56774dfba}'</comment>
+  </data>
+  <data name="1:label,Subscription{f39ebe2d-903b-4d3f-bd70-44210ce20ad2}" xml:space="preserve">
+    <value />
+    <comment>'Subscription' : label for section in Entity FormXml ID: '{f39ebe2d-903b-4d3f-bd70-44210ce20ad2}'</comment>
+  </data>
+  <data name="1:label,txt_subscriptiontxt_subscription_statecode0" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : label for state '0' on Entity</comment>
+  </data>
+  <data name="1:label,txt_subscriptiontxt_subscription_statecode1" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : label for state '1' on Entity</comment>
+  </data>
+  <data name="1:label,txt_subscriptiontxt_subscription_statuscode1" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : label for status '1' on Entity</comment>
+  </data>
+  <data name="1:label,txt_subscriptiontxt_subscription_statuscode2" xml:space="preserve">
+    <value />
+    <comment>'txt_subscription' : label for status '2' on Entity</comment>
+  </data>
+  <data name="1:LocalizedCollectionName,txt_subscriptionentitytxt_subscription" xml:space="preserve">
+    <value />
+    <comment> 'txt_subscription' : LocalizedCollectionName for Entity</comment>
+  </data>
+  <data name="1:LocalizedName,Subscription{0107fc28-c519-41a2-8ec6-5e38e59bf568}" xml:space="preserve">
+    <value />
+    <comment>'Subscription' : LocalizedName for systemform in Entity FormXml ID: '{0107fc28-c519-41a2-8ec6-5e38e59bf568}'</comment>
+  </data>
+  <data name="1:LocalizedName,Subscription{2f9233b1-0222-4c7b-b90a-eceb9c6d5538}" xml:space="preserve">
+    <value />
+    <comment>'Subscription' : LocalizedName for SavedQuery on Entity QueryId: '{2f9233b1-0222-4c7b-b90a-eceb9c6d5538}'</comment>
+  </data>
+  <data name="1:LocalizedName,Subscription{33ef1d17-7d50-48e4-9f77-636b3cb2ba74}" xml:space="preserve">
+    <value />
+    <comment>'Subscription' : LocalizedName for SavedQuery on Entity QueryId: '{33ef1d17-7d50-48e4-9f77-636b3cb2ba74}'</comment>
+  </data>
+  <data name="1:LocalizedName,Subscription{4b6fb930-d5ae-e711-a826-000d3a13ae0a}" xml:space="preserve">
+    <value />
+    <comment>'Subscription' : LocalizedName for SavedQuery on Entity QueryId: '{4b6fb930-d5ae-e711-a826-000d3a13ae0a}'</comment>
+  </data>
+  <data name="1:LocalizedName,Subscription{519d5255-0cd2-48ac-ad3c-2dda956dd8b2}" xml:space="preserve">
+    <value />
+    <comment>'Subscription' : LocalizedName for systemform in Entity FormXml ID: '{519d5255-0cd2-48ac-ad3c-2dda956dd8b2}'</comment>
+  </data>
+  <data name="1:LocalizedName,Subscription{53206021-bd97-4f37-b062-3eda6f848d07}" xml:space="preserve">
+    <value />
+    <comment>'Subscription' : LocalizedName for SavedQuery on Entity QueryId: '{53206021-bd97-4f37-b062-3eda6f848d07}'</comment>
+  </data>
+  <data name="1:LocalizedName,Subscription{56e8b106-b633-416e-8846-f5515a31252a}" xml:space="preserve">
+    <value />
+    <comment>'Subscription' : LocalizedName for SavedQuery on Entity QueryId: '{56e8b106-b633-416e-8846-f5515a31252a}'</comment>
+  </data>
+  <data name="1:LocalizedName,Subscription{5dea7558-9bfd-4e1a-a981-1b13061d656e}" xml:space="preserve">
+    <value />
+    <comment>'Subscription' : LocalizedName for systemform in Entity FormXml ID: '{5dea7558-9bfd-4e1a-a981-1b13061d656e}'</comment>
+  </data>
+  <data name="1:LocalizedName,Subscription{f97dcedc-3d41-4540-b803-72ad73d5556d}" xml:space="preserve">
+    <value />
+    <comment>'Subscription' : LocalizedName for SavedQuery on Entity QueryId: '{f97dcedc-3d41-4540-b803-72ad73d5556d}'</comment>
+  </data>
+  <data name="1:LocalizedName,Subscription{feb58a6e-5ffc-40e0-bda9-a7304f95d6f2}" xml:space="preserve">
+    <value />
+    <comment>'Subscription' : LocalizedName for SavedQuery on Entity QueryId: '{feb58a6e-5ffc-40e0-bda9-a7304f95d6f2}'</comment>
+  </data>
+  <data name="1:LocalizedName,txt_subscriptionentitytxt_subscription" xml:space="preserve">
+    <value />
+    <comment> 'txt_subscription' : LocalizedName for Entity</comment>
+  </data>
+  <data name="1:Title,SubscriptionInfo{0107fc28-c519-41a2-8ec6-5e38e59bf568}" xml:space="preserve">
+    <value />
+    <comment>'Subscription' : Title for NavBarArea in Entity FormXml ID: 'Info'</comment>
+  </data>
+  <data name="1:Title,SubscriptionMarketing{0107fc28-c519-41a2-8ec6-5e38e59bf568}" xml:space="preserve">
+    <value />
+    <comment>'Subscription' : Title for NavBarArea in Entity FormXml ID: 'Marketing'</comment>
+  </data>
+  <data name="1:Title,SubscriptionProcessCenter{0107fc28-c519-41a2-8ec6-5e38e59bf568}" xml:space="preserve">
+    <value />
+    <comment>'Subscription' : Title for NavBarArea in Entity FormXml ID: 'ProcessCenter'</comment>
+  </data>
+  <data name="1:Title,SubscriptionSales{0107fc28-c519-41a2-8ec6-5e38e59bf568}" xml:space="preserve">
+    <value />
+    <comment>'Subscription' : Title for NavBarArea in Entity FormXml ID: 'Sales'</comment>
+  </data>
+  <data name="1:Title,SubscriptionService{0107fc28-c519-41a2-8ec6-5e38e59bf568}" xml:space="preserve">
+    <value />
+    <comment>'Subscription' : Title for NavBarArea in Entity FormXml ID: 'Service'</comment>
+  </data>
+  <data name="62:Title,HLPLearningPath" xml:space="preserve">
+    <value>Percurso de Aprendizagem</value>
+    <comment>Title for Area 'HLP' Group 'LearningPath'</comment>
+  </data>
+  <data name="62:Title,HLPnav_learning_path" xml:space="preserve">
+    <value>Content Library</value>
+    <comment>Title for Area 'HLP' SubArea 'nav_learning_path'</comment>
+  </data>
+  <data name="62:Title,NewArea_53dd82f8NewArea_53dd82f8" xml:space="preserve">
+    <value />
+    <comment>Title for Area 'NewArea_53dd82f8' Area 'NewArea_53dd82f8'</comment>
+  </data>
+  <data name="62:Title,NewArea_53dd82f8txtMobiz_CampaignGroup" xml:space="preserve">
+    <value />
+    <comment>Title for Area 'NewArea_53dd82f8' Group 'txtMobiz_CampaignGroup'</comment>
+  </data>
+</root>
